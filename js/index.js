@@ -3,18 +3,16 @@
 $(document).ready(function(){
 	$("#answer1").hide();
     $("#question1").click(function(){
-    $("#answer1").slideDown();
+    $("#answer1").slideToggle();
 });
-});
-$(document).ready(function(){
+
 	$("#answer2").hide();
    	$("#question2").click(function(){
-    $("#answer2").slideDown();
+    $("#answer2").slideToggle();
 });
-});
-$(document).ready(function(){
+
 	$("#answer3").hide();
     $("#question3").click(function(){
-    $("#answer3").slideDown();
+    $("#answer3").slideToggle();
 });
 });
